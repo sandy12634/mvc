@@ -23,7 +23,8 @@
                         <input type="hidden" name="id" value="@task.Id" />
                         <button type="submit">اكتملت</button>
                     </form>
-
+                                   <!-- زر تعديل المهمة -->
+                    <a asp-action="Edit" asp-route-id="@task.Id" style="margin-right:10px;">تعديل</a>
                 }
             </li>
         }
